@@ -1,0 +1,95 @@
+body{
+  background: rgb(0,0,1);
+  background: radial-gradient(circle, rgba(0,0,1,0.8412407199207808) 0%, rgba(5,130,122,1) 100%, rgba(187,178,187,0.1829774145986519) 100%, rgba(5,130,122,0.5555264342064952) 100%);
+}
+input{
+  color: black;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+  /* Signin || SignUp Card and Field----------------------------------------------------------- */
+.nav-wrapper a{
+  color: whitesmoke !important;
+  text-decoration: none;
+}
+.nav-wrapper ul{
+  display: inline-block !important;
+}
+nav{
+  font-family: 'Redressed', cursive;
+  font-weight: bold;
+}
+
+.brand-logo{
+  margin-left: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 103%;
+  margin: 0.373333rem 0 1.424rem 0;
+  color: black !important;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.material-icons{
+  font-size: 35px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+
+
+
+.input-field input:focus{
+  border-bottom: 1px solid black !important;
+  box-shadow: 0 1px 0 0 black !important;
+}
+.input-field input::placeholder{
+  color: black !important;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.input-field button{
+  font-family: 'Ubuntu', sans-serif;  
+  color: black;
+  font-weight: bold; 
+  text-transform: none;
+}
+.input-field  h6 a{
+  /* color: black !important; */
+  text-decoration: none !important;
+  
+}
+
+.row{
+  border-radius: 5px;
+}
+
+.maintab{
+
+  margin-top: 5rem !important;
+
+}
+
+/* .table{
+  padding: 1.75rem;
+  vertical-align: top;
+} */
+table{
+  border-radius: 20px;
+}
+.table-dark td, .table-dark th, .table-dark thead th {
+  border-color: rgba(0,0,0,0.1);
+}
