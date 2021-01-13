@@ -56,7 +56,7 @@ const SubmitForm = () => {
     } 
 
     // console.log("All passed.....");
-    // -------------------------------------------------------Submit Request To Server -----------------------------------------------------------------------------
+    // ---------------------------------------------------------Submit Request To Server -----------------------------------------------------------------------------
     fetch("/submit",{
         method:"post",
         headers:{
@@ -83,10 +83,10 @@ const SubmitForm = () => {
         console.log(err);
     })
 
-    nameRef .current.value = "";
-    emailRef.current.value = "";
-    phoneRef.current.value = "";
-    dobRef  .current.value = "";
+    // nameRef .current.value = "";
+    // emailRef.current.value = "";
+    // phoneRef.current.value = "";
+    // dobRef  .current.value = "";
 
 
 }
