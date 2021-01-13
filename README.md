@@ -3,13 +3,13 @@ It's a Test MERN Stack Project.
 You can checkout the app at : https://info-sf.herokuapp.com/
 
 ## File structure
-#### `client` - Holds the client application
-- #### `public` - This holds all of our static files
-- #### `src`
-    - #### `assets` - This folder holds assets such as images, docs, and fonts
-    - #### `components` - This folder holds all of the different components that will make up our views
-    - #### `App.js` - This is what renders all of our browser routes and different views
-    - #### `index.js` - This is what renders the react app by rendering App.js, should not change
+- #### `client` - Holds the client application
+    - #### `public` - This holds all of our static files
+    - #### `src`
+        - #### `assets` - This folder holds assets such as images, docs, and fonts
+        - #### `components` - This folder holds all of the different components that will make up our views
+        - #### `App.js` - This is what renders all of our browser routes and different views
+        - #### `index.js` - This is what renders the react app by rendering App.js, should not change
 
 - #### `config` - This holds our configuration files, like mongoDB uri and other keys
 - #### `models` - This holds all of our data models
